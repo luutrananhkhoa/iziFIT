@@ -1,0 +1,140 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    min-height: 100vh;
+}
+
+.h-100vh {
+    height: 80vh;
+}
+
+.nav-logo img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.col-padding {
+    padding: 0px;
+}
+
+.img-col {
+    width: 70%;
+}
+
+.fs-custom {
+    font-size: 50px;
+}
+
+.text-custom {
+    width: 70%;
+    margin-left: 60px;
+}
+
+.bg-custom {
+    background-image: linear-gradient(to right, #64E8DE, #8a64e8);
+}
+
+.logo-section {
+    width: 80px;
+}
+
+.logo-footer {
+    width: 100px;
+}
+
+.fs-custom__footer {
+    font-size: 10px;
+}
+
+.li-custom__footer li {
+    list-style: none;
+    font-size: 10px;
+}
+
+.col-custom__footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p-custom__footer {
+    margin-top: 40px;
+    padding: 0 250px;
+    font-size: 8px;
+    text-align: left;
+}
+
+.p-custom__footer-1 {
+    display: none;
+    margin-top: 30px;
+    font-size: 8px;
+    text-align: left;
+}
+
+.fw-custom {
+    letter-spacing: 10px;
+}
+
+.logo-cus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #BCE183;
+    margin: 0 auto;
+}
+
+.fa-mobile-alt,
+.fa-chart-bar,
+.fa-nutritionix,
+.fa-prescription-bottle {
+    color: #000;
+    font-size: 40px;
+    top: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+    .fs-custom {
+        font-size: 25px;
+    }
+    .text-custom {
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+    }
+    .h-100vh {
+        height: 60vh;
+    }
+    .logo-footer {
+        display: none;
+    }
+    .p-custom__footer {
+        display: none;
+        margin-top: 30px;
+        padding: 0px;
+        font-size: 8px;
+        text-align: left;
+    }
+    .p-custom__footer-1 {
+        display: inline;
+        padding: 0 10px 10px;
+    }
+}
