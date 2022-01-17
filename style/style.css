@@ -34,7 +34,7 @@ body {
 }
 
 .img-col {
-    width: 70%;
+    width: 80%;
 }
 
 .fs-custom {
@@ -112,6 +112,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    .img-col {
+        width: 100%;
+    }
     .fs-custom {
         font-size: 25px;
     }
